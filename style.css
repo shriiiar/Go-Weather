@@ -1,0 +1,110 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('img/8c55b0a1ae411dac8d78c03760a45e13.jpg');
+    background-repeat: no-repeat;
+}
+.heading-text{
+    color: rgb(255, 255, 255);
+}
+#search-box{
+    width: 75%;
+    height: 50px;
+}
+
+#search-input{
+    border:none;
+    border-bottom: 1px solid rgb(255, 238, 217);
+    padding: 5px 10px;
+    outline: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: rgb(99, 99, 99);
+    font-weight: 600;
+    background-color: transparent !important;
+}
+
+.error-div{
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error-div video{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.showResultDiv{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(99, 99, 99);
+}
+
+#show-more{
+    color: rgb(99, 99, 99);;
+}
+
+.showMoreBtnDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.data-values{
+    color: rgb(255, 238, 217);
+}
+.data-values-carosel{
+    color: rgb(233, 248, 255)
+}
+
+.forecast-heading{
+    text-align: center;
+    color: rgb(233, 248, 255);
+    font-size: 30px;
+}
+.forecast-heading-carosel{
+    text-align: center;
+    color: rgb(233, 248, 255);
+    font-size: 20px;
+}
+
+#caroseldiv{
+    width: 100% !important;
+}
+
+.card{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* custom button */
+#button-33 {
+    background-color: rgb(155, 223, 255);
+    box-shadow: rgb(236, 209, 177, 0.2) 0 -25px 18px -14px inset,
+    rgb(236, 209, 177, 0.15) 0 1px 2px, rgb(236, 209, 177, 0.15) 0 2px 4px,
+    rgb(236, 209, 177, 0.15) 0 4px 8px, rgb(236, 209, 177, 0.15) 0 8px 16px,
+    rgb(236, 209, 177, 0.15) 0 16px 32px;;
+    color: rgb(255, 231, 203);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 19px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-33:hover {
+    box-shadow: rgb(236, 209, 177, 0.35) 0 -25px 18px -14px inset,
+    rgb(236, 209, 177, 0.25) 0 1px 2px, rgb(236, 209, 177, 0.25) 0 2px 4px,
+    rgb(236, 209, 177, 0.25) 0 4px 8px, rgb(236, 209, 177, 0.25) 0 8px 16px,
+    rgb(236, 209, 177, 0.25) 0 16px 32px;
+    transform: scale(1.05);
+  }
+  
